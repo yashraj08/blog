@@ -1,0 +1,19 @@
+i.icon{
+	font-size: 2em;
+}
+body
+{
+	background:#f2711c;
+}
+.container.main{
+	margin-top: 7em;
+}
+.ui.segment{
+background :#bcbdbd
+}
+.content{
+	padding:1em;
+}
+#delete {
+	display: inline;
+}
