@@ -5,7 +5,6 @@ var express = require("express"),
     sanitizer = require("express-sanitizer"),
     app = express();
 
-mongoose.connect("mongodb+srv://YashRaj:Yash1998@blogapp.shvdu.mongodb.net/blogapp?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true });
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({ extended: true }));
